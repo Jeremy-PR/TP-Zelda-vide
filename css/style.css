@@ -58,10 +58,14 @@ Jaune : #ffc107
 
 .dark {
     /* Image de fond : zelda-bg_pattern_brown.png */
+    background-image:url('../img/zelda-bg_pattern_brown.png');
+    color: aliceblue;
 }
 
 .light {
     /* Image de fond : zelda-bg_pattern_white.png */
+    background-image: url("../img/zelda-bg_pattern_white.png");
+    
 }
 
 
@@ -172,3 +176,12 @@ left: -24px;
         transform: translateY(-50%) scaleX(-1);
 right: -24px;
 }
+
+nav {
+  background-color: #AF966D;
+  display : flex;
+  text-align: center;
+}
+
+
+
